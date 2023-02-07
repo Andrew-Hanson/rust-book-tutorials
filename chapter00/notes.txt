@@ -15,6 +15,8 @@ cargo is a program for managing projects and dependencies
 # BSH will be used to signify WSL, git bash, or any linux terminal
 rustc --version   # returns the current version of the rustc compiler
                   # this requires rustc to be on your path
+cargo --version   # returns the current version of cargo
+
 
 CMD : echo %PATH%
 PSH : echo $env:Path
@@ -27,3 +29,6 @@ rustup update  # will update rustc and rustup
 rustup doc     # will provide documentation
 rustc doc      # will provide documentation
 cargo doc      # will provide documentation
+
+cargo new project_name
+# creates a new project with the given name in the current directory
