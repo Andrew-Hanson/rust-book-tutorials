@@ -1,0 +1,29 @@
+Installing rust and getting started.
+
+Installing rustc requires a C language build system.
+On windows MSVC build tools for Visual Studio are used.
+on linux something like clang, gcc, or a build-essential package are used.
+
+rustup will be installed along with rustc
+rustup is a program for managing the local rust build system
+
+cargo will be installed along with rustc
+cargo is a program for managing projects and dependencies
+-----   commands    ------
+
+# PSH will be used to signify PowerShell in windows
+# BSH will be used to signify WSL, git bash, or any linux terminal
+rustc --version   # returns the current version of the rustc compiler
+                  # this requires rustc to be on your path
+
+CMD : echo %PATH%
+PSH : echo $env:Path
+BSH : echo $PATH
+
+rustup is a program for managing the local rust build system
+
+rustup update  # will update rustc and rustup
+
+rustup doc     # will provide documentation
+rustc doc      # will provide documentation
+cargo doc      # will provide documentation
